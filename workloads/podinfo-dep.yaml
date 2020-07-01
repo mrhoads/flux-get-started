@@ -58,7 +58,7 @@ spec:
         - --ui-message="Hi from Mike"
         env:
         - name: PODINFO_UI_COLOR
-          value: "orange"
+          value: "blue"
         livenessProbe:
           httpGet:
             path: /healthz
